@@ -2,7 +2,7 @@
 - 👀 I’m interested in writing hackey code to accomplish whatever purpose I need it to accomplish
 - 🌱 I’m currently learning java
 - 💞️ I’m looking to collaborate on anything cybersecurity related
-- 📫 How to reach me bat signal or use the force
+- 📫 How to reach me? Bat signal or use the force!
 
 <!---
 Ronin3790/Ronin3790 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
