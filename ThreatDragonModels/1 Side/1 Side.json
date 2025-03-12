@@ -19,7 +19,7 @@
         "cells": [
           {
             "position": {
-              "x": 70,
+              "x": 20,
               "y": 230
             },
             "size": {
@@ -38,6 +38,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 1,
             "ports": {
               "groups": {
                 "top": {
@@ -121,7 +122,6 @@
               ]
             },
             "id": "b2d28baf-6283-4ed6-90d0-3bcded002f12",
-            "zIndex": 1,
             "data": {
               "type": "tm.Actor",
               "name": "User",
@@ -154,6 +154,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 2,
             "ports": {
               "groups": {
                 "top": {
@@ -237,7 +238,6 @@
               ]
             },
             "id": "9f634e11-aa8e-4350-8d53-1858815b4079",
-            "zIndex": 2,
             "data": {
               "type": "tm.Actor",
               "name": "AP",
@@ -270,6 +270,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 3,
             "ports": {
               "groups": {
                 "top": {
@@ -353,7 +354,6 @@
               ]
             },
             "id": "dad10f01-0409-417d-afb7-cf8d59ba41df",
-            "zIndex": 3,
             "data": {
               "type": "tm.Actor",
               "name": "WS",
@@ -386,6 +386,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 4,
             "ports": {
               "groups": {
                 "top": {
@@ -469,7 +470,6 @@
               ]
             },
             "id": "622e9769-abd6-4302-abb8-63834e5fcc8c",
-            "zIndex": 4,
             "data": {
               "type": "tm.Actor",
               "name": "SW",
@@ -502,6 +502,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 5,
             "ports": {
               "groups": {
                 "top": {
@@ -585,7 +586,6 @@
               ]
             },
             "id": "3f7a9388-268e-43fa-b74b-d94df60acc61",
-            "zIndex": 5,
             "data": {
               "type": "tm.Actor",
               "name": "SC",
@@ -618,6 +618,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 6,
             "ports": {
               "groups": {
                 "top": {
@@ -701,7 +702,6 @@
               ]
             },
             "id": "a107a472-5f5d-41f0-ba1d-045c5ed4696c",
-            "zIndex": 6,
             "data": {
               "type": "tm.Actor",
               "name": "AS",
@@ -734,6 +734,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 7,
             "ports": {
               "groups": {
                 "top": {
@@ -817,7 +818,6 @@
               ]
             },
             "id": "c7e08ba7-8f5d-407d-bd18-6a7f66d6ca31",
-            "zIndex": 7,
             "data": {
               "type": "tm.Actor",
               "name": "IOP's",
@@ -850,6 +850,7 @@
             },
             "visible": true,
             "shape": "actor",
+            "zIndex": 8,
             "ports": {
               "groups": {
                 "top": {
@@ -933,7 +934,6 @@
               ]
             },
             "id": "8b86bb43-be0b-4a1d-a95e-57f8603e67be",
-            "zIndex": 8,
             "data": {
               "type": "tm.Actor",
               "name": "Radios",
@@ -1274,23 +1274,51 @@
             "labels": [
               "TB01"
             ],
-            "id": "0c2b9171-b453-4670-aa36-dd6628801720",
+            "id": "c1932603-db32-48f2-80a5-f8a86be8fb3e",
             "source": {
-              "x": 170,
-              "y": 140
+              "x": 140,
+              "y": 150
             },
             "target": {
-              "x": 130,
-              "y": 450
+              "x": 140,
+              "y": 440
             },
             "vertices": [
               {
-                "x": 210,
-                "y": 190
-              },
+                "x": 190,
+                "y": 310
+              }
+            ]
+          },
+          {
+            "shape": "trust-boundary-curve",
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Boundary",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            },
+            "labels": [
+              "Trust Boundary"
+            ],
+            "id": "da051bf2-26c3-4c76-be5a-820530176bc2",
+            "source": {
+              "x": 910,
+              "y": 120
+            },
+            "target": {
+              "x": 900,
+              "y": 390
+            },
+            "vertices": [
               {
-                "x": 240,
-                "y": 390
+                "x": 830,
+                "y": 260
               }
             ]
           }
