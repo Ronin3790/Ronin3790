@@ -19,6 +19,27 @@
         "cells": [
           {
             "position": {
+              "x": 290,
+              "y": 70
+            },
+            "size": {
+              "width": 500,
+              "height": 530
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "8fd1ffd8-8954-4b48-8fc8-13e0376f27f7",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "Trust Boundary",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
               "x": 20,
               "y": 230
             },
@@ -1257,70 +1278,6 @@
               "cell": "dad10f01-0409-417d-afb7-cf8d59ba41df",
               "port": "330b6069-7984-4a48-ae84-fbfbbb5ff462"
             }
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "TB01",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "TB01"
-            ],
-            "id": "c1932603-db32-48f2-80a5-f8a86be8fb3e",
-            "source": {
-              "x": 140,
-              "y": 150
-            },
-            "target": {
-              "x": 140,
-              "y": 440
-            },
-            "vertices": [
-              {
-                "x": 190,
-                "y": 310
-              }
-            ]
-          },
-          {
-            "shape": "trust-boundary-curve",
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Boundary",
-              "name": "Trust Boundary",
-              "description": "",
-              "isTrustBoundary": true,
-              "hasOpenThreats": false
-            },
-            "labels": [
-              "Trust Boundary"
-            ],
-            "id": "da051bf2-26c3-4c76-be5a-820530176bc2",
-            "source": {
-              "x": 910,
-              "y": 120
-            },
-            "target": {
-              "x": 900,
-              "y": 390
-            },
-            "vertices": [
-              {
-                "x": 830,
-                "y": 260
-              }
-            ]
           }
         ]
       }
