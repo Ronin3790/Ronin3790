@@ -991,50 +991,6 @@
             "connector": "smooth",
             "data": {
               "type": "tm.Flow",
-              "name": "Data Flow",
-              "description": "",
-              "outOfScope": false,
-              "reasonOutOfScope": "",
-              "hasOpenThreats": false,
-              "isBidirectional": false,
-              "isEncrypted": false,
-              "isPublicNetwork": false,
-              "protocol": "",
-              "threats": []
-            },
-            "labels": [
-              "Data Flow"
-            ],
-            "id": "c389f42c-6de2-40c4-b43d-247d0bbef847",
-            "source": {
-              "cell": "9f634e11-aa8e-4350-8d53-1858815b4079",
-              "port": "e10dbf9f-1967-4617-a150-fee2eefe8aa9"
-            },
-            "target": {
-              "cell": "dad10f01-0409-417d-afb7-cf8d59ba41df",
-              "port": "e17c9ab4-e0c5-4009-9927-54a8674b9d3d"
-            }
-          },
-          {
-            "shape": "flow",
-            "attrs": {
-              "line": {
-                "stroke": "#333333",
-                "targetMarker": {
-                  "name": "block"
-                },
-                "sourceMarker": {
-                  "name": ""
-                },
-                "strokeDasharray": null
-              }
-            },
-            "width": 200,
-            "height": 100,
-            "zIndex": 10,
-            "connector": "smooth",
-            "data": {
-              "type": "tm.Flow",
               "name": "8. What goes on here?",
               "description": "",
               "outOfScope": false,
@@ -1403,6 +1359,51 @@
               "cell": "dad10f01-0409-417d-afb7-cf8d59ba41df",
               "port": "46e3fa50-742f-4817-8d6f-9f88b15a30e9"
             }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "9. Message alarms",
+              "description": "",
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "9. Message alarms"
+            ],
+            "id": "160b1aa1-c01b-41a2-a679-569d01c97d1a",
+            "source": {
+              "cell": "dad10f01-0409-417d-afb7-cf8d59ba41df",
+              "port": "e17c9ab4-e0c5-4009-9927-54a8674b9d3d"
+            },
+            "target": {
+              "cell": "9f634e11-aa8e-4350-8d53-1858815b4079",
+              "port": "e10dbf9f-1967-4617-a150-fee2eefe8aa9"
+            },
+            "vertices": []
           },
           {
             "position": {
