@@ -857,7 +857,7 @@
           },
           {
             "position": {
-              "x": 300,
+              "x": 311,
               "y": 540
             },
             "size": {
@@ -1567,6 +1567,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 11,
             "ports": {
               "groups": {
                 "top": {
@@ -1650,7 +1651,6 @@
               ]
             },
             "id": "a75a2b39-22fa-4a48-8d7d-b0b430708069",
-            "zIndex": 11,
             "data": {
               "type": "tm.Store",
               "name": "Message Database?",
@@ -1690,6 +1690,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 12,
             "ports": {
               "groups": {
                 "top": {
@@ -1773,7 +1774,6 @@
               ]
             },
             "id": "f82c589c-5e75-4341-95b2-e4ac39aa0fcc",
-            "zIndex": 12,
             "data": {
               "type": "tm.Store",
               "name": "Credential store?",
@@ -1813,6 +1813,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 13,
             "ports": {
               "groups": {
                 "top": {
@@ -1896,7 +1897,6 @@
               ]
             },
             "id": "0e27d8b8-9396-41da-b067-e51dc0331efe",
-            "zIndex": 13,
             "data": {
               "type": "tm.Store",
               "name": "Logs",
@@ -1936,6 +1936,7 @@
             },
             "visible": true,
             "shape": "store",
+            "zIndex": 14,
             "ports": {
               "groups": {
                 "top": {
@@ -2019,7 +2020,6 @@
               ]
             },
             "id": "b38c93fe-81b1-4f9a-817b-fe1d2a6956a4",
-            "zIndex": 14,
             "data": {
               "type": "tm.Store",
               "name": "Time?",
